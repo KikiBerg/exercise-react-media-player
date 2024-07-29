@@ -83,7 +83,6 @@ export const sidebarItems: ISidebarItem[] = [
   { id: 2, name: 'Search', icon: 'search' },
   { id: 3, name: 'Your Library', icon: 'library_music' },  
 ];
-
 export const initialPlayerState: IPlayerState = {
     currentTrack: null,
     isPlaying: false,

@@ -1,5 +1,4 @@
 export * from "./App";
-export * from "./CurrentMediaInfo";
 export * from "./CurrentTrack";
 export * from "./Footer";
 export * from "./MediaCard";

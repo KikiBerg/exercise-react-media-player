@@ -31,3 +31,7 @@ export interface ISidebarItem {
   name: string;
   icon: string;
 }
+
+export interface IMediaCardProps {
+  track: ITrack;
+}

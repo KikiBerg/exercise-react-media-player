@@ -1,11 +1,11 @@
-import { ReactElement } from "react";
+import { ReactElement } from 'react';
 import { ISidebarItem } from '../interfaces';
 import { sidebarItems } from '../data';
 import './Sidebar.css';
 
 export function Sidebar(): ReactElement {
-    return (
-        <aside className="sidebar">
+  return (
+    <aside className="sidebar">
       <ul>
         {sidebarItems.map((item: ISidebarItem) => (
           <li key={item.id}>

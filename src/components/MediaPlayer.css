@@ -1,27 +1,91 @@
 .media-player {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: #282828;
-    color: white;
-  }
-  
-  .player-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .progress-bar {
-    width: 100%;
-    height: 5px;
-    background-color: #ccc;
-    margin: 10px 0;
-  }
-  
-  .progress-bar .progress {
-    width: 50%; /* Example width */
-    height: 100%;
-    background-color: #f00;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #181818;
+  border-top: 1px solid #282828;
+}
+
+.current-track {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.current-track img {
+  width: 56px;
+  height: 56px;
+  margin-right: 14px;
+}
+
+.track-info h4, .track-info p {
+  margin: 0;
+}
+
+.track-info p {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.player-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.control-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.control-buttons .material-symbols-outlined {
+  font-size: 32px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.play-pause {
+  font-size: 40px !important;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #535353;
+  border-radius: 2px;
+}
+
+.progress {
+  width: 30%;
+  height: 100%;
+  background-color: #b3b3b3;
+  border-radius: 2px;
+}
+
+.volume-lyrics {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.volume-control input[type="range"] {
+  width: 93px;
+  margin-left: 8px;
+}
+
+.lyrics-button {
+  background: none;
+  border: none;
+  color: #b3b3b3;
+  cursor: pointer;
+}

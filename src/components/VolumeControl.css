@@ -1,0 +1,14 @@
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .volume-control .material-symbols-outlined {
+    font-size: 24px;
+  }
+  
+  .volume-control input[type="range"] {
+    width: 100px;
+  }
+  

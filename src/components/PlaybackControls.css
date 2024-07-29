@@ -1,0 +1,12 @@
+.playback-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .playback-controls .material-symbols-outlined {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

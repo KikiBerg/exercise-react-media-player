@@ -1,4 +1,10 @@
 import { ITrack, IPlaylist, IUser, ISidebarItem, IPlayerState } from './interfaces';
+import onYourSide from './assets/on_your_side.jpg';
+import onceAgain from './assets/once_again.jpg';
+import stayplus from './assets/stayplus.webp';
+import human from './assets/human.png';
+import imagineDragons from './assets/imagine_dragons.jpg';
+import userAvatar from './assets/user_avatar.jpg';
 
 export const tracks: ITrack[] = [
   {
@@ -7,7 +13,7 @@ export const tracks: ITrack[] = [
     artist: 'A Rocket to the Moon',
     album: 'On Your Side',
     duration: '5:55',
-    coverArt: '/assets/on_your_side.jpg',
+    coverArt: onYourSide,
   },
   {
     id: 2,
@@ -15,7 +21,7 @@ export const tracks: ITrack[] = [
     artist: 'John Legend',
     album: 'Once Again',
     duration: '5:55',
-    coverArt: '/assets/once_again.jpg',
+    coverArt: onceAgain,
   },
   {
     id: 3,
@@ -23,7 +29,7 @@ export const tracks: ITrack[] = [
     artist: 'John Legend',
     album: 'Once Again',
     duration: '5:55',
-    coverArt: '/assets/once_again.jpg',
+    coverArt: onceAgain,
   },
   {
     id: 4,
@@ -31,7 +37,7 @@ export const tracks: ITrack[] = [
     artist: 'A Rocket to the Moon',
     album: 'On Your Side',
     duration: '5:55',
-    coverArt: '/assets/on_your_side.jpg',
+    coverArt: onYourSide,
   },
   {
     id: 5,
@@ -39,7 +45,7 @@ export const tracks: ITrack[] = [
     artist: 'Zedd & Aloe Blacc',
     album: 'Stay +',
     duration: '5:55',
-    coverArt: '/assets/stayplus.webp',
+    coverArt: stayplus,
   },
   {
     id: 6,
@@ -47,7 +53,7 @@ export const tracks: ITrack[] = [
     artist: "Rag'n'Bone Man",
     album: 'Human',
     duration: '5:55',
-    coverArt: '/assets/human.png',
+    coverArt: human,
   },
   {
     id: 7,
@@ -55,7 +61,7 @@ export const tracks: ITrack[] = [
     artist: 'Imagine Dragons',
     album: 'Smoke + Mirrors',
     duration: '5:55',
-    coverArt: '/assets/imagine_dragons.jpg',
+    coverArt: imagineDragons,
   },
 ];
 
@@ -75,7 +81,7 @@ export const playlists: IPlaylist[] = [
 export const currentUser: IUser = {
   id: 1,
   name: 'Maria',
-  avatar: '/assets/user_avatar.jpg',
+  avatar: userAvatar,
 };
 
 export const sidebarItems: ISidebarItem[] = [

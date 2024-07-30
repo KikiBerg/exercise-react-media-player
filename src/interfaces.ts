@@ -35,3 +35,4 @@ export interface ISidebarItem {
 export interface IMediaCardProps {
   track: ITrack;
 }
+

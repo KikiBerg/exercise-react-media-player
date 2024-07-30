@@ -1,5 +1,7 @@
 .media-list {
+  flex: 1;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .media-grid {
@@ -7,52 +9,6 @@
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
 }
-
-.media-card {
-  background-color: #181818;
-  padding: 16px;
-  border-radius: 8px;
-  transition: background-color 0.3s;
-  cursor: pointer;
-}
-
-.media-card:hover {
-  background-color: #282828;
-}
-
-.media-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 4px;
-  margin-bottom: 16px;
-}
-
-.media-card h3 {
-  font-size: 16px;
-  margin: 0 0 8px 0;
-}
-
-.media-card p {
-  font-size: 14px;
-  color: #b3b3b3;
-  margin: 0;
-}
-
-.play-icon {
-  display: none;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background-color: #1db954;
-  border-radius: 50%;
-  padding: 8px;
-}
-
-.media-card:hover .play-icon {
-  display: block;
-}
-
 
 @media (max-width: 768px) {
   .media-grid {

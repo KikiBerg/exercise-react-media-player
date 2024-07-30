@@ -1,4 +1,10 @@
-import { ITrack, IPlaylist, IUser, ISidebarItem, IPlayerState } from './interfaces';
+import {
+  ITrack,
+  IPlaylist,
+  IUser,
+  ISidebarItem,
+  IPlayerState,
+} from './interfaces';
 import onYourSide from './assets/on_your_side.jpg';
 import onceAgain from './assets/once_again.jpg';
 import stayplus from './assets/stayplus.webp';
@@ -87,11 +93,12 @@ export const currentUser: IUser = {
 export const sidebarItems: ISidebarItem[] = [
   { id: 1, name: 'Home', icon: 'home' },
   { id: 2, name: 'Search', icon: 'search' },
-  { id: 3, name: 'Your Library', icon: 'library_music' },  
+  { id: 3, name: 'Your Library', icon: 'library_music' },
 ];
+
 export const initialPlayerState: IPlayerState = {
-    currentTrack: null,
-    isPlaying: false,
-    volume: 50,
-    progress: 0
-  };
+  currentTrack: null,
+  isPlaying: false,
+  volume: 50,
+  progress: 0,
+};

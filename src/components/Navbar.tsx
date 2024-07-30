@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import { currentUser } from '../data';
 import './Navbar.css';
 
 export function Navbar(): ReactElement {
@@ -13,8 +14,8 @@ export function Navbar(): ReactElement {
         <input type="text" placeholder="Search..." />
       </div>
       <div className="user-profile">
-        <img src="/path-to-user-avatar.jpg" alt="User Avatar" />
-        <span>User Name</span>
+        <img src={currentUser.avatar} alt="User Avatar" />
+        <span>{currentUser.name}</span>
       </div>
     </nav>
   );

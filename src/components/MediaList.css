@@ -1,11 +1,11 @@
 .media-list {
-  padding: 20px;
+  padding: 1rem;
 }
 
 .media-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
 }
 
 .media-card {
@@ -51,4 +51,11 @@
 
 .media-card:hover .play-icon {
   display: block;
+}
+
+
+@media (max-width: 768px) {
+  .media-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
 }

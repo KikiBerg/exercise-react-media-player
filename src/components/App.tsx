@@ -3,6 +3,8 @@ import { Navbar } from './Navbar';
 import { Sidebar } from './Sidebar';
 import { MediaList } from './MediaList';
 import { MediaPlayer } from './MediaPlayer';
+import { CurrentTrack } from './CurrentTrack';
+import { Footer } from './Footer';
 import './App.css';
 
 export function App(): ReactElement {
@@ -11,9 +13,13 @@ export function App(): ReactElement {
       <Navbar />
       <div className="main-content">
         <Sidebar />
-        <MediaList />
+        <div className="media-content">
+          <MediaList />
+          <CurrentTrack />  
+        </div>
       </div>
       <MediaPlayer />
+      <Footer />
     </div>
   );
 }

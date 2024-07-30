@@ -2,6 +2,7 @@ import { ReactElement } from "react";
 import { currentUser } from '../data';
 import './Navbar.css';
 
+
 export function Navbar(): ReactElement {
   return (
     <nav className="navbar">
